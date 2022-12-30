@@ -1,0 +1,156 @@
+
+.body{
+  height: 100vh;
+}
+.container{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  /* margin-left: 120px; */
+  width: 80%;
+  margin: auto;
+  font-weight: 100;
+  font-family: 'arial narrow';
+  font-size: small;
+  color: rgb(83, 83, 83);
+}
+
+.row{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.label{
+  display: block;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  margin-right: 150px;
+  /* height: 70px; */
+  font-weight: 700;
+}
+
+.all-blue{
+  color: white;
+  background-color: rgb(65, 65, 216);
+  border: none;
+  box-shadow: 1px 1px 3px 0.8px rgba(102, 101, 101, 0.2);
+}
+
+button{
+  display: block;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 600;
+  font-family: 'arial narrow';
+  color: rgb(71, 71, 71);
+  box-shadow: 1px 1px 3px 0.8px rgba(102, 101, 101, 0.2);
+  background-color: rgba(146, 146, 146, 0.2);
+  max-width: 100px;
+  align-items: center;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+
+.default:hover{
+  background-color: rgba(95, 95, 95, 0.4);
+}
+
+/* VARIANT */
+/* Outline */
+.outline{
+  color: rgb(65, 65, 216);
+  border: solid 1px rgb(65, 65, 216);
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.outline:hover{
+  color: rgb(65, 65, 216);
+  border: solid 1px rgb(65, 65, 216);
+  background-color: rgba(65, 65, 216, 0.1);
+  box-shadow: none;
+}
+
+/* Text */
+.text{
+  color: rgb(65, 65, 216);
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.text:hover{
+  color: rgb(65, 65, 216);
+  border: none;
+  background-color: rgba(65, 65, 216, 0.1);
+  box-shadow: none;
+}
+
+/* Disabled */
+.disableShadow{
+  color: white;
+  background-color: rgb(65, 65, 216);
+  border: none;
+  box-shadow: none;
+}
+
+.disabled{
+  box-shadow: none;
+  border: none;
+  color: rgba(146, 146, 146, 0.4);
+}
+
+
+/* Icon */
+.material-symbols-outlined{
+  font-size: small;
+  margin: 0px 5px;
+}
+
+.end{
+  margin-left: 5px;
+}
+
+/* Size */
+.sm{
+  font-size: smaller;
+}
+
+.md{
+  font-size: medium;
+}
+
+.lg{
+  font-size: large;
+}
+
+
+/*Color  */
+.default:hover{
+  color: rgba(146, 146, 146, 0.9);
+}
+
+.primary:hover{
+  color: white;
+  background-color: rgb(9, 9, 158);
+}
+
+.secondary{
+  background-color: rgba(68, 68, 68, 0.8);
+  color: white;
+}
+
+.secondary:hover{
+  background-color: rgba(34, 34, 34, 0.9);
+}
+
+.danger{
+  background-color: rgb(253, 21, 21);
+  color: white;
+}
+
+.danger:hover{
+  background-color: rgb(117, 3, 3);
+}
